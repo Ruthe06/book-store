@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(bgm.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  
+}
+.book img{
+	max-width:12em;
+	background-color:#fff;
+	padding:1em;
+	box-shadow:0 5px 5px #e1e1e1;
+	font-family: arial,helvetica,sans-serif;
+	transition:1.0s ease-in-out;
+    
+}
+#m1{
+	display: inline-block;
+	width:15.88%;
+	padding:5px;  
+}
+#m1 a{
+    color:black;
+    background-color: #e1e1e1;
+    padding: 4px;
+}
+.na a{
+    color: #fff;
+}
+
+#jii i{
+    font-size: 30px;
+    color: white;
+    margin-left:50px;
+}
+#jii i :hover{
+    border: rgba(162, 223, 122, 0.904);
+}
+@media screen and (max-width: 768px) {
+    #m1 {
+        width: 100%;
+    }
+
+    #jii i {
+        margin-left: 0;
+    }
+}

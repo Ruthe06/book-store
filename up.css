@@ -1,0 +1,66 @@
+body{
+    font-family: georiga,cursie;
+ background-color:none;
+   background-image:url("oo.jpg");
+   margin: 0;       
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+#container{
+    background-color:transparent;
+    width: 300px;
+    height: 390px;
+    padding: 10px;
+    margin-top:20px;
+    margin-left: 2%;
+}
+h1{
+    margin-top: 200px;
+    margin-left: 2%;
+}
+input{
+    padding:7px;
+    margin: 2px;
+    border: 1px none black;
+    background-color: transparent;
+    color: white;
+}
+
+::placeholder {
+    color:black;
+}
+
+input:hover {
+    border: solid white ;
+}
+a{
+    color:blue;
+}
+
+P {
+    display: inline;
+}
+#y a{
+   margin: 400px;
+    background-color: black;
+    padding: 10px;
+
+}
+button{
+    background-color: rgb(212, 212, 221);
+}
+@media screen and (max-width:600px){
+    #container{
+         width:60%;
+         height:auto;
+         margin-left:30px;
+    }
+}
+h1{
+    margin-top:40px;
+    margin-left:30px;
+}
+body{
+
+    background-position:center ;
+}    
